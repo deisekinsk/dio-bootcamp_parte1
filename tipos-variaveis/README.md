@@ -33,5 +33,5 @@ Após, localizar o nome do repositório criado no Github pelo o VsCode. Escolher
 
 Criar um novo Java Project com Crtl +Shift + P, Java:Create Java Project > No build tools > Nomear o projeto > Add Settings.json ao .gitignore
 
-Em Source Control (Ctrl +Shift + P) + Nomear o Commit + Acionar o Commit
+Em Source Control (Ctrl +Shift + P) + Nomear o Commit + Acionar o Commit + Confirmar a sincronização Sync Changes
 
