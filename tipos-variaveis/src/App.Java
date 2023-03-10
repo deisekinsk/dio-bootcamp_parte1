@@ -14,7 +14,7 @@
  * @param media: método que calcula a média.
  * @param main:  método estático que permiti sua execução a partir da máquina virtual Java*/
 
-public class App {
+ public class App {
 
     public static Integer somar (int numA, int numB){
         return numA+numB;
@@ -44,13 +44,21 @@ public class App {
 
         String primeiroNome = "Deise";
         String ultimoNome = "Silva";
+        
+        
+        int jogoDataStart = 2023;
+        int numeroRecebe = -7;
+        numeroRecebe = numeroRecebe * -1;
+   
 
         String nomeCompleto = nomeCompleto(primeiroNome, ultimoNome);
 
         System.out.println("I'm "+
-            nomeCompleto + " and I start with Java Doc. 🏡🫖🖥️");
+            nomeCompleto + " and I start with Java Doc.");
 
         media(5,7,9);
-
+        System.out.println(" " + primeiroNome + " " + ultimoNome);
+        System.out.println(2*++jogoDataStart);
+        System.out.println(numeroRecebe);
     }
 }
