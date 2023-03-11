@@ -38,3 +38,12 @@ Criar um novo Java Project com Crtl +Shift + P, Java:Create Java Project > No bu
 
 Em Source Control (Ctrl +Shift + P) + Nomear o Commit + Acionar o Commit + Confirmar a sincronização Sync Changes
 
+### Atalhos VsCode
+
+Crtl + D seleciona todas variáveis
+Crtl + Shift + L extensão para sysout
+
+### Git comandos
+git status
+git log
+git log --pretty=oneline
