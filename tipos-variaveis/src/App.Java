@@ -1,18 +1,13 @@
 /**
- * Java Developer study on Digital Inovation One
- * @author Deise Kinsk kinsk@msn.com
- * @author https://www.linkedin.com/in/deise-kinsk-profile/
+ * Java Developer study on Digital Inovation 
+ * @author Nome Deise Kinsk E-mail kinsk@msn.com
+ * Linkedin https://www.linkedin.com/in/deise-kinsk-profile/
+ * 
  * Use @param : methods and constructor 
  * Use @return : methods
  * Use @exception , @throws , @see   
- */
-
- /** Na declaração do método, os paramentros são separados por vírgula, e possui estrutura:
- * TipoDeRetorno NomeObjetivoVerboInfinito Parametro/os
- * @param somar: método do tipo inteiro de soma de duas variáveis
- * @param nomeCompleto: metódo que concatena duas variáveis
- * @param media: método que calcula a média.
- * @param main:  método estático que permiti sua execução a partir da máquina virtual Java*/
+ * 
+ * */
 
  public class App {
 
@@ -40,13 +35,16 @@
         
     };
 
+    /**
+     * @param args
+     */
     public static void main(String[] args){
 
         String primeiroNome = "Deise";
         String ultimoNome = "Silva";
         
         
-        int jogoDataStart = 2023;
+        int jogoDaSorte = 2023;
         int numeroRecebe = -7;
         numeroRecebe = numeroRecebe * -1;
    
@@ -58,7 +56,7 @@
 
         media(5,7,9);
         System.out.println(" " + primeiroNome + " " + ultimoNome);
-        System.out.println(2*++jogoDataStart);
+        System.out.println(2*+ jogoDaSorte);
         System.out.println(numeroRecebe);
     }
 }

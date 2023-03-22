@@ -29,4 +29,9 @@ public class Operacoes{
      int numeroRecebe = 5;
      numeroRecebe = numeroRecebe * -1;
 
+     //incremento
+     numeroRecebe = 1;     
+     numeroRecebe = numeroRecebe +1;
+     numeroRecebe++;    
+
 }
